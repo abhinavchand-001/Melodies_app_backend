@@ -21,7 +21,6 @@
     "api/song/add": {
       "maxDuration": 300,
       "memory": 3008,
-      "maxRequestSize": 100,
       "cors": {
         "origin": ["https://melodies-app-admin.vercel.app"],
         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
