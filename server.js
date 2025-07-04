@@ -1,5 +1,5 @@
 import express from 'express';
-import cors from 'cors'
+import cors from require('cors')
 import 'dotenv/config'
 import connectDB from './src/config/mongodb.js';
 import connectCloudinary from './src/config/cloudinary.js';
